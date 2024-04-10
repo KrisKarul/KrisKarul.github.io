@@ -112,7 +112,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       url: "mailto:kris1993@keio.jp"
+      # url: "mailto:kris1993@keio.jp"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
