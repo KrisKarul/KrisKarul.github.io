@@ -116,7 +116,7 @@ author:
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-brands fa-linkedin"
       url: "https://my.linkedin.com/in/kriskkumar"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
