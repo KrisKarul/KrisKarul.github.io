@@ -24,7 +24,7 @@ url                      : https://kriskarul.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "kriskarul/kriskarul.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/envelope.svg"
+logo                     : #"/assets/images/envelope.svg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -116,17 +116,14 @@ author:
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      icon: "fab fa-fw fa-linkedin-square"
+      url: "https://my.linkedin.com/in/kriskkumar"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/KrisKarul"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "ORCID"
+      icon: "fa-brands fa-orcid"
+      url: "https://orcid.org/0000-0001-8575-5039"
 
 # Site Footer
 footer:
