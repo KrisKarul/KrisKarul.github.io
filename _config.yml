@@ -115,14 +115,14 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
+    - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin-square"
       url: "https://my.linkedin.com/in/kriskkumar"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/KrisKarul"
     - label: "ORCID"
-      icon: "fa-brands fa-orcid"
+      icon: "fab fa-brands fa-orcid"
       url: "https://orcid.org/0000-0001-8575-5039"
 
 # Site Footer
