@@ -17,13 +17,12 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 title                    : "Kriskkumar Karunanithi"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Kriskkumar Karunanithi"
-description              : "An amazing website."
+title_separator          : "|"
+name                     : &name "Kriskkumar Karunanithi"
+description              : &description ""
 url                      : https://kriskarul.github.io
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : KrisKarul/kriskarul.github.io
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "kriskarul/kriskarul.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/envelope.svg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -112,7 +111,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:kris1993@keio.jp"
+      url: "mailto:kris1993@keio.jp"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
