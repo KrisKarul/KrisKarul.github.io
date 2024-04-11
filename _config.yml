@@ -222,7 +222,7 @@ defaults:
   # _research
   - scope:
       path: ""
-      type: research
+      type: archive
     values:
       layout: page
       author_profile: true
