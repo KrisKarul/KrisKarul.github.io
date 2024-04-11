@@ -103,7 +103,7 @@ analytics:
 
 # Site Author
 author:
-  name             : ""
+  name             : 
   avatar           : "/images/self.jpg"
   bio              : "An economics doctoral student at Keio University"
   location         : "Japan"
