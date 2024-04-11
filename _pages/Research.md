@@ -7,7 +7,7 @@ toc: true
 toc_sticky: false
 author_profile: true
 redirect_from:
-  - /research.md/
+  - /research
 ---
 
 {% include base_path %}
