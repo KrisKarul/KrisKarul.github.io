@@ -220,14 +220,14 @@ defaults:
       share: true
       related: true
   # _research
-    - scope:
-        path: ""
-        type: research
-      values:
-        layout: archive
-        author_profile: true
-        share: true
-        comments: true
+    #- scope:
+    #    path: ""
+     #   type: research
+      #values:
+       # layout: archive
+        #author_profile: true
+        #share: true
+        #comments: true
 
 
 
