@@ -1,13 +1,8 @@
 ---
 layout: single
-classes: #wide
 permalink: /research/
 title: "Research"
-toc: true
-toc_sticky: false
 author_profile: true
-redirect_from:
-  - /research.md
 ---
 
 {% include base_path %}
