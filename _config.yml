@@ -206,6 +206,31 @@ kramdown:
   enable_coderay: false
 
 
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  # _research
+    - scope:
+        path: ""
+        type: research
+      values:
+        layout: archive
+        author_profile: true
+        share: true
+        comments: true
+
+
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -273,25 +298,3 @@ compress_html:
     envs: development
 
 
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
-  # _research
-    - scope:
-        path: ""
-        type: research
-      values:
-        layout: single
-        author_profile: true
-        share: true
-        comments: true
