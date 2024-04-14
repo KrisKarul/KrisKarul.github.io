@@ -16,16 +16,6 @@ author_profile: true
 </style>
 <body onload="document.body.innerHTML=md.html(document.body.innerHTML); document.body.style.display='block';">
 
-<body></body>
-<div id="footer" class="page__footer">
-<footer>
-{% include footer/custom.html %}
-{% include_cached footer.html %}
-</footer>
-</div>
-</body>
-
-
 <!--======= COPY ABOVE CODE AS HEADER, THEN FOLLOW WITH RESUME CONTENT IN MARKDOWN FORMAT =========-->
 
 <img style="float:right;border-radius:50%;width:70px;padding:6px" src="avatar-woman.jpg" />
@@ -95,3 +85,27 @@ author_profile: true
 
 * Languages: English (fluent), Bahasa Malaysia (fluent), Japanese (basic)
 * Software: EViews, Stata, R
+
+
+
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+    {% include_cached skip-links.html %}
+    {% include_cached masthead.html %}
+
+  
+    <div id="footer" class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include_cached footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
