@@ -6,4 +6,16 @@ permalink: /cv/
 author_profile: true
 ---
 
-<script src="https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FKrisKarul%2Fcasual-markdown-cv%2Fblob%2Fmain%2Fresume-warm.html&style=default&type=code&showBorder=on&showLineNumbers=on&showFileMeta=on&showFullPath=on&showCopy=on"></script>
+<body>
+  <h1>This is the Parent HTML Document</h1>
+  <div id="content"></div>
+  <script>
+      fetch('https://raw.githubusercontent.com/KrisKarul/casual-markdown-cv/main/resume-warm.html')
+          .then(response => response.text())
+          .then(data => {
+              document.getElementById('content').innerHTML = data;
+          })
+          .catch(error => console.error('Error loading the HTML:', error));
+  </script>
+</body>
+
